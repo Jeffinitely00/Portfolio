@@ -46,7 +46,21 @@ const Navbar = () => {
       className={scroll ? "header active" : "header"}
     >
       <div className="Nav_container">
-        <div className="logo">
+        <div
+          className="logo"
+          href=""
+          target="_blank"
+          onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/1W3n1tWWq5B_JI_kufhkwzTtG5AGHzunb/view?usp=sharing",
+              "_blank"
+            );
+            return false;
+          }}
+          download="#"
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
+        >
           <h3>JL</h3>
         </div>
         <ul className="nav_links">

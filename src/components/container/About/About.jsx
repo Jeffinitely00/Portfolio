@@ -36,13 +36,12 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <p>
-            I believe being challenged every day drives the essence of our
-            success. I like solving problems. My current role requires me to be
-            a visionary and to be creatively and technically proficient. I find
-            a great deal of energy every day from my work product. I want my
-            career to be filled with opportunities to grow my skill sets and
-            inspire others. Providing value is what every employer is seeking
-            and that is something I truly believe in.
+            Life has challenged us with a grand journey for success and
+            it always depends on how we handle such challenges. I like solving
+            problems. My current role requires me to be a visionary and to be
+            creatively and technically proficient, which I am. I am energized by the exellence I pour into my desire to win. I want my career to be
+            filled with opportunities to enure others and create a better world. 
+            Providing value is what every person under God is seeking and that is something I truly believe in.
           </p>
           {bios.map((bio) => {
             return (
@@ -56,11 +55,11 @@ const About = () => {
             );
           })}
           <motion.a
-            href="https://drive.google.com/file/d/1UOVH9wFIB5XmrWJ2TKByeSXMDSd8bITd/view?usp=share_link"
+            href="https://drive.google.com/file/d/1W3n1tWWq5B_JI_kufhkwzTtG5AGHzunb/view?usp=sharing"
             target="_blank"
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1UOVH9wFIB5XmrWJ2TKByeSXMDSd8bITd/view?usp=share_link",
+                "https://drive.google.com/file/d/1W3n1tWWq5B_JI_kufhkwzTtG5AGHzunb/view?usp=sharing",
                 "_blank"
               );
               return false;

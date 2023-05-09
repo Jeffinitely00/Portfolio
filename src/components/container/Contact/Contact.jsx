@@ -39,12 +39,10 @@ const Contact = () => {
         >
           <h3>Just Say Hi</h3>
           <p className="contact_text">
-            After completing my certification in Software Development and
-            developing real-world projects, I’m ready to start up my career in
-            IT and finish strong. As I freelanced on various technical projects
-            to help sustain my journey, I am more than delighted to have had
-            accomplish another milestone in my growth and be a part of a
-            flourishing industry
+            As a professional Software Developer,
+            developing real-world projects, I am ready to resolve any of your software needs and develop very powerful products that meet data efficiency standards, data integrity, and security standards, and also assure consistent timely delivery. As I freelanced on various technical projects
+            to help sustain my many clients, I am more than delighted to have had
+            accomplish another milestone in my growth and be a part of an established framework for supporting society.
           </p>
           {contacts.map((contact) => {
             return (

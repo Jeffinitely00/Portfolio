@@ -35,7 +35,7 @@ const Home = () => {
       <div className="profile_text">
         <h3 className='name'>Hi, I'm <span>Jeffrey Lim</span> </h3>
         <span className='job'>Software Developer Based in Plano, texas</span>
-        <span className='text'>Passionate<br /> to craft interruptive <br /> products.</span>
+        <span className='text'>There lives a passion<br /> in my deepest soul <br /> to create. </span>
         <motion.a
           href="#contact"
           whileHover={{ scale: 1.1 }}
@@ -43,9 +43,9 @@ const Home = () => {
           animate="animation"
         >
           connect with me</motion.a>
-        <div
+        {/* <div
           className="web"
-
+          href=""
         >
           Web Developer
         </div>
@@ -58,7 +58,7 @@ const Home = () => {
           className="freelance"
         >
           Web3.0
-        </div>
+        </div> */}
       </div>
     </motion.div>
   )
